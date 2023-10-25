@@ -18,7 +18,8 @@ config {
    last_answer_posted_at: `The time the user last posted a question`,
  },
  assertions: {
-   rowConditions: ["badge_count >= 0"]
+  uniqueKey: ["user_id"],
+  rowConditions: ["badge_count >= 0"]
  }
 }
 
