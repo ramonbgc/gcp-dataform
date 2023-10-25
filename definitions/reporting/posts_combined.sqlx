@@ -8,8 +8,7 @@ post_id: `A unique identifier for a post`,
 created_at: `The time the post was created`,
 type: `The post type: question or answer`,
 title: {
-   description: "The title of the post",
-   bigqueryPolicyTags: ["projects/doryoku-dacoaching/locations/us/taxonomies/8779509711797272593/policyTags/2836668468478603603"]
+   description: "The title of the post"
  },
 body: `The content in the body of the post`
 },
