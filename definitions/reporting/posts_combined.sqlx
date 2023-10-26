@@ -5,7 +5,7 @@ tags: ["daily", "reporting"],
 description: "Combine both questions and answers into a single posts_all table",
 columns: {
 post_id: `A unique identifier for a post`,
-created_at: `The time the post was created`,
+created_at: `The time the post was created, by ramon`,
 type: `The post type: question or answer`,
 title: {
    description: "The title of the post"
